@@ -1,0 +1,36 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.animation-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.animations {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  padding: 2rem 0rem;
+  width: 80%;
+  margin: auto;
+  row-gap: 5rem;
+  column-gap: 3rem;
+}
+
+.animation {
+  width: 20rem;
+  height: 20rem;
+  border-style: solid;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.triangle {
+  width: 20%;
+  height: 20%;
+  margin: 1rem;
+}
